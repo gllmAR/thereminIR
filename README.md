@@ -1,50 +1,50 @@
 thereminIR
 ========
 
-Arduino based infrared «theremin» midi controller
+Arduino based infrared «theremin» MIDI controller.
 
+Create a MIDI controller using infrared proximity sensors and arduino.
 
-#### Materials
+#### Material
 
-* Arduino (tested with leonardo ethernet)
-* usb cable
+* Arduino (tested with Leonardo ethernet)
+* USB cable
 * 3 x infrared range finder
-	* Sharp [GP2Y0A21YK0F](http://www.robotshop.com/ca/en/sharp-gp2y0a21yk0f-ir-range-sensor.html) IR Range Sensor - 10cm to 80cm
+	* Sharp [GP2Y0A21YK0F](http://www.robotshop.com/ca/en/sharp-gp2y0a21yk0f-ir-range-sensor.html) IR Range Sensor - 10 cm to 80 cm
 	* 3 x [sensors wires](http://www.robotshop.com/ca/en/sirc-01-sharp-gp2-ir-sensor-cable-8.html)
-* Headers
+* Headers (.1 inch pitch)
 * Soldering iron
 
 
 
-#### Schematic
-
-Arduino wiring shematic
+####  Wiring schematic
 
 ![schematic/thereminIR_bb.png](schematic/thereminIR_bb.png)  
 
-For XLR Wiring,  I Used this pin out
+#### XLR 5 pin out
 
-1 : gnd
-2 : a0
-3 : v++
-4 : a1
-5 : a2
+* 1 : gnd
+* 2 : a0
+* 3 : v++
+* 4 : a1
+* 5 : a2
 
-#### Arduino
-* Download and install the lastest version of the arduino IDE compatible with your board.  
+#### Arduino IDE
+* Download and install the latest version of the arduino IDE compatible with your board.  
+	* Arduino .ORG http://www.arduino.org
+	* Arduino/Genuino .CC https://www.arduino.cc
 * Download and install arcore from https://github.com/rkistner/arcore
 	* Follow the installation method
-	* tested with 1.7.8 at .org
+
 
 #### Code structure
-
-* Arduino / Serial Midi: Basic example to get raw data over serial bus
-	* Use Max Msp patch to «see» the data after uploading to the board
-
-* Arduino / Native Midi : Example usign Native midi over usb with Arcore
-
+coded/tested with arduino Leonardo ethernet with IDE  1.7.8 from arduino.org
+* Arduino / Serial Midi:
+	* Basic example to get raw data over serial bus
+* Arduino / Native Midi :
+	* Example using native MIDI over USB with Arcore
 * Max : patch to see the data from the sensors
-* pd : patch to hear the data from sensors
+* Pd : patch to hear the data from sensors
 * schematic : fritzing schematic
 
 #### References
@@ -55,7 +55,7 @@ For XLR Wiring,  I Used this pin out
 * http://bondoukousoftware.com/InfraredTheremin.html
 * http://atmega32-avr.com/infrared-theremin-using-atmega1284/
 
-##### midi implementation
+##### MIDI
 * http://www.instructables.com/id/DIY-Arduino-Based-MIDI-Foot-Controller/?ALLSTEPS
 
 ##### alternative to arcore
