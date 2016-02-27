@@ -43,8 +43,8 @@ coded/tested with arduino Leonardo ethernet with IDE  1.7.8 from arduino.org
 	* Basic example to get raw data over serial bus
 * Arduino / Native Midi :
 	* Example using native MIDI over USB with Arcore
-* Max : patch to see the data from the sensors
-* Pd : patch to hear the data from sensors
+* Max : patch to see the data from the sensors (tested with max 7)
+* Pd : patch to hear the data from sensors  (work with PD vanilla v 0.47)
 * schematic : fritzing schematic
 
 #### References
