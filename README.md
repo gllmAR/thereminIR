@@ -50,21 +50,21 @@ For XLR Wiring,  I Used this pin out
 #### References
 
 ##### Infrared theremin on the internet  
-http://people.ece.cornell.edu/land/courses/ece4760/FinalProjects/f2013/sjm298_ar568/sjm298_ar568/sjm298_ar568/index.html
-http://www.pyroelectro.com/projects/mini_ir_theremin/
-http://bondoukousoftware.com/InfraredTheremin.html
-http://atmega32-avr.com/infrared-theremin-using-atmega1284/
+* http://people.ece.cornell.edu/land/courses/ece4760/FinalProjects/f2013/sjm298_ar568/sjm298_ar568/sjm298_ar568/index.html
+* http://www.pyroelectro.com/projects/mini_ir_theremin/
+* http://bondoukousoftware.com/InfraredTheremin.html
+* http://atmega32-avr.com/infrared-theremin-using-atmega1284/
 
 ##### midi implementation
-http://www.instructables.com/id/DIY-Arduino-Based-MIDI-Foot-Controller/?ALLSTEPS
+* http://www.instructables.com/id/DIY-Arduino-Based-MIDI-Foot-Controller/?ALLSTEPS
 
 ##### alternative to arcore
-https://github.com/adafruit/TeeOnArdu
+* https://github.com/adafruit/TeeOnArdu
 
 ##### Audio on arduino
-http://playground.arduino.cc/Main/ArduinoSynth
-http://makezine.com/projects/make-35/advanced-arduino-sound-synthesis/
+* http://playground.arduino.cc/Main/ArduinoSynth
+* http://makezine.com/projects/make-35/advanced-arduino-sound-synthesis/
 
 
 ##### Laser harp
-http://harpelaserarduino.blogspot.ca
+* http://harpelaserarduino.blogspot.ca
